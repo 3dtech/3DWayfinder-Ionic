@@ -26,5 +26,9 @@
             "PACKAGE_NAME": "com.wayfinder.ionicdemo"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "com.wayfinder.ionicdemo"
+        }
+    }
 }
