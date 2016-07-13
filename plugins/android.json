@@ -1,0 +1,30 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.wayfinder.ionicdemo"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.wayfinder.ionicdemo"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.wayfinder.ionicdemo"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.wayfinder.ionicdemo"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.wayfinder.ionicdemo"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.wayfinder.ionicdemo"
+        }
+    },
+    "dependent_plugins": {}
+}

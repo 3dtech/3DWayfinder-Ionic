@@ -1,0 +1,15 @@
+<ion-view view-title="Maps">
+  <ion-nav-buttons side="secondary">
+    <button class="button button-icon icon ion-ios-search-strong" ng-click="showFilterBar()">
+    </button>
+  </ion-nav-buttons>
+  <ion-content class="superfill" scroll="false">
+    <ion-list ng-show="items.length > 0">
+      <ion-item ng-repeat="item in items" >
+        <p ng-click="showPOI(item)">{{item.names | wfCurrentLanguage}}</p>
+      </ion-item>
+    </ion-list>
+
+    <canvas id="map" class="map"></canvas>
+  </ion-content>
+</ion-view>
