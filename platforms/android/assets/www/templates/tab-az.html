@@ -1,0 +1,11 @@
+<ion-view view-title="Chats">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" collection-repeat="key in poiKeys" type="item-text-wrap" href="#/tab/poi/{{pois[key].id}}">
+        <img ng-show="pois[key].image_id != 0" src="{{pois[key].image_id | wfThumbnail}}"/>
+        <h2>{{pois[key].getNames() | wfCurrentLanguage}}</h2>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

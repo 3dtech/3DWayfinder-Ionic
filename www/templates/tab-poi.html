@@ -1,0 +1,17 @@
+<ion-view view-title="{{poi.getNames() | wfCurrentLanguage}}">
+		<ion-content ng-class="{expanded:$scope.isExpanded}">
+				<div class="poi-info slide-up" style="background-image: url({{backgroundImage}});">
+          <a class="show-path" ng-click="showPath()"><button class="button button-small">
+            <i class="icon ion-ios-navigate-outline"></i> Show Path
+          </button></a>
+					<div class="content">
+							<div class="avatar" style="background-image: url({{poi.image_id | wfThumbnail}});"></div>
+							<h3><a class="light">{{poi.getNames() | wfCurrentLanguage}}</a></h3>
+							<h4>{{poi.getGroupNames() | wfCurrentLanguage}}</h4>
+					</div>
+				</div>
+				<div>
+					{{poi.getDescriptions() | wfCurrentLanguage}}
+				</div>		 
+		</ion-content>
+</ion-view>

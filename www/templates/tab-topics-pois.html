@@ -1,0 +1,10 @@
+<ion-view title="{{group.getNames() | wfCurrentLanguage}}">
+  <ion-content>
+     <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="poi in group.pois" type="item-text-wrap" href="#/tab/poi/{{poi.id}}">
+        <h2>{{poi.getNames() | wfCurrentLanguage}}</h2>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

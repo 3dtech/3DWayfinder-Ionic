@@ -1,0 +1,40 @@
+{
+  "name": "ng-cordova-beacon",
+  "main": "./dist/ng-cordova-beacon.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/nraboy/ng-cordova-beacon",
+  "authors": [
+    "Nic Raboy <https://blog.nraboy.com>"
+  ],
+  "description": "AngularJS wrapper for the Apache Cordova iBeacon plugin",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "ng-cordova-beacon",
+    "angularjs",
+    "mobile",
+    "ibeacon",
+    "apache cordova",
+    "phonegap",
+    "ionic framework"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.1",
+    "commit": "46845310a2842e498a4c6c9dae51ebc21d14b529"
+  },
+  "_source": "https://github.com/3dtech/ng-cordova-beacon.git",
+  "_target": "^0.0.1",
+  "_originalSource": "https://github.com/3dtech/ng-cordova-beacon.git",
+  "_direct": true
+}
