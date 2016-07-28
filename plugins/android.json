@@ -24,11 +24,10 @@
         },
         "ionic-plugin-keyboard": {
             "PACKAGE_NAME": "com.wayfinder.ionicdemo"
-        }
-    },
-    "dependent_plugins": {
-        "cordova-plugin-crosswalk-webview": {
+        },
+        "com.unarin.cordova.beacon": {
             "PACKAGE_NAME": "com.wayfinder.ionicdemo"
         }
-    }
+    },
+    "dependent_plugins": {}
 }
